@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                 child: Text(err),
               );
             }
-            return Center(
+            return const Center(
               child: Text('No data'),
             );
           },
